@@ -56,18 +56,49 @@
         </dependency>
 
         <!-- The Java API for KML -->
-        <dependency>
-            <groupId>de.micromata.jak</groupId>
-            <artifactId>JavaAPIforKml</artifactId>
-            <version>2.2.0-SNAPSHOT</version>
-        </dependency>
+		<dependency>
+		    <groupId>de.micromata.jak</groupId>
+		    <artifactId>JavaAPIforKml</artifactId>
+		    <version>2.2.0</version>
+		</dependency>
 
     </dependencies>
+
+    <build>
+		<plugins>
+			<plugin>
+			  <groupId>org.apache.maven.plugins</groupId>
+			  <artifactId>maven-surefire-plugin</artifactId>
+			  <version>2.19.1</version>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.6.1</version>
+				<configuration>
+				  <source>1.8</source>
+				  <target>1.8</target>
+				</configuration>
+			</plugin>
+
+		</plugins>
+    </build>
 
     <repositories>
 
         <!-- Needed for the Java API for KML -->
         <repository>
+            <id>mvnrepository.com</id>
+            <name>Maven Repository</name>
+            <url>https://mvnrepository.com/</url>
+            <layout>default</layout>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+
+<!--         <repository>
             <id>maven2-repository.dev.java.net</id>
             <name>Java.net Maven 2 Repository</name>
             <url>http://download.java.net/maven/2</url>
@@ -76,7 +107,7 @@
                 <enabled>true</enabled>
             </snapshots>
         </repository>
-
+ -->
     </repositories>
 
 </project>
