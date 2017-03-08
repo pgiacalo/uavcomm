@@ -19,9 +19,9 @@
 
 		<!-- https://mvnrepository.com/artifact/com.github.jodersky/mavlink-library_2.10 -->
 		<dependency>
-		    <groupId>com.github.jodersky</groupId>
-		    <artifactId>mavlink-library_2.10</artifactId>
-		    <version>0.1</version>
+			<groupId>com.github.jodersky</groupId>
+			<artifactId>mavlink-library_2.10</artifactId>
+			<version>0.1</version>
 		</dependency>
 
         <dependency>
