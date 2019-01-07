@@ -21,8 +21,8 @@ public interface MAVCommunicator {
 }
 
 Code examples and the properties file setup (for the serial port) are shown in these files:
-- MAVLinkPortal
-- MAVLinkPortalTest
+- MAVLinkPortal.java
+- MAVLinkPortalTest.java
 - MAV_1_SerialPort.properties
 
 This code has been tested with the following 2 UAV autopilots running MAVLink.
