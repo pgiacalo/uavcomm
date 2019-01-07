@@ -1,5 +1,5 @@
 # uavcomm
-A project to abstract away the complexities of MAVLink serial communication.
+A project to simplify MAVLink serial communication.
 
 The design concept of this package is to view an external application communicating with a UAV as an entity that can both send commands to, and receive telemetry from, the UAV via MAVLink messages. As such, all communication to/from the UAV is done via a "Portal" class that implements the MAVCommunicator interface. The interface is shown below.
 
