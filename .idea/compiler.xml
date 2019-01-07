@@ -26,5 +26,8 @@
         <module name="uavcom" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="uavcom" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
