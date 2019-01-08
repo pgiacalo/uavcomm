@@ -3,6 +3,7 @@ A project to simplify MAVLink serial communication.
 
 The design concept of this package is to view an external application communicating with a UAV as a remote client that can both send commands to, and receive telemetry from, the UAV via MAVLink messages. As such, all communication to/from the UAV is done via a client "Portal" that implements the MAVCommunicator interface. The interface is shown below.
 
+```
 public interface MAVCommunicator {
 
     /**
@@ -19,6 +20,8 @@ public interface MAVCommunicator {
      */
     public void send(MAVCommandMessage messageToUav) throws MAVLinkSerialPortException;
 }
+```
+
 
 Code examples and the properties file setup (for the serial port) are shown in these files:
 - src/main/java/com/yuji/uav/comm/MyMAVLinkClient.java
