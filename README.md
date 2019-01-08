@@ -25,8 +25,8 @@ public interface MAVCommunicator {
 
 Code examples and the properties file setup (for the serial port) are shown in these files:
 
-- [MyMAVLinkClient.java] (/src/main/java/com/yuji/uav/comm/MyMAVLinkClient.java)
-- [SerialPort.properties] (/src/main/resources/SerialPort.properties)
+- [MyMAVLinkClient.java] (src/main/java/com/yuji/uav/comm/MyMAVLinkClient.java)
+- [SerialPort.properties] (src/main/resources/SerialPort.properties)
 
 This code has been tested with the following 2 UAV autopilots.
 - Pixhawk (running ArduPilot and MAVLink)
