@@ -24,6 +24,6 @@ Code examples and the properties file setup (for the serial port) are shown in t
 - src/main/java/com/yuji/uav/comm/MyMAVLinkClient.java
 - src/main/resources/SerialPort.properties
 
-This code has been tested with the following 2 UAV autopilots running MAVLink.
-- Pixhawk
-- UAV Dev board (UDB)
+This code has been tested with the following 2 UAV autopilots.
+- Pixhawk (running ArduPilot and MAVLink)
+- UAV Dev board (running MatrixPilot and MAVLink)
